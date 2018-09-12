@@ -1,0 +1,42 @@
+body {
+    background-color: #E8E5AC;
+}
+
+h1 {
+    color: #0DDBFF;
+    font-size: 5em;
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+li {
+    color: #0C79E8;
+}
+
+@keyframes errorAnim {
+    from {margin-left: none;}
+    to {margin-left: 200px;}
+}
+
+#smileImg {
+    width: 20%;
+}
+
+#smileImg:hover {
+    animation-name: errorAnim;
+    animation-duration: 2s;
+}
+
+
+.container {
+    margin-left: none;
+   text-align: center;
+   margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
